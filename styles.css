@@ -1,0 +1,34 @@
+#main {
+  height: 250px;
+}
+span {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #93c3cd;
+  color: #425a6a;
+  padding: 7px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+ul {
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+span:hover {
+  color: white;
+  background-color: #db4865;
+}
+#tabs {
+  background-color: #35414f;
+  height: 200px;
+  width: 900px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#tabs span {
+  margin: 10px;
+  cursor: pointer;
+}
